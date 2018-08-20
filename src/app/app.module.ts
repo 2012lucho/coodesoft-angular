@@ -10,6 +10,7 @@ import { ServiciosSectionComponent } from './home-page/servicios-section/servici
 import { PortfolioSectionComponent } from './home-page/portfolio-section/portfolio-section.component';
 import { ContactoSectionComponent } from './home-page/contacto-section/contacto-section.component';
 import { MainMenuComponent } from './main-menu/main-menu.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { MainMenuComponent } from './main-menu/main-menu.component';
     ServiciosSectionComponent,
     PortfolioSectionComponent,
     ContactoSectionComponent,
-    MainMenuComponent
+    MainMenuComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule
