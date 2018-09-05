@@ -1,4 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
 .bg-dark { background-color: #060606 !important; }
 
-section{ min-height: 100vh;}
+section{ min-height: 100vh; position:relative; background-size: cover; background-position: center; }
+
+.cont{ position:absolute; top:0px; width:100%; padding-top: 2rem; padding-bottom: 2rem; height:95%; background-color: rgba(0,0,0,0.85);}
+
+.sub-cont{  height: 100%; border-left:1px solid rgba(255,255,255,0.2); border-right:1px solid rgba(255,255,255,0.2); }
+
+p, h1, h2, h3, h4 { color: #fff;}
+
+h2 {text-transform: capitalize;}
+
+.container {max-width: 800px;}
